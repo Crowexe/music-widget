@@ -24,7 +24,7 @@
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: left;
-	background-color: rgb(59, 59, 59);
+	background-color: rgb(34, 34, 34);
 	border-top-right-radius: 0.8rem;
 	border-bottom-right-radius: 0.8rem;
 	padding: 1rem;
@@ -48,6 +48,7 @@
 	text-overflow: ellipsis;
 	position: relative;
 	z-index: 10;
+	text-shadow: -3px 2px #0a0e27;
 }
 
 .artist {
@@ -58,6 +59,7 @@
 	color:rgb(216, 216, 216);
 	position: relative;
 	z-index: 10;
+	text-shadow: -3px 2px #0a0e27;
 }
 
 .song-BG {
@@ -71,5 +73,5 @@
 	object-fit: cover;
 	border-top-right-radius: 0.8rem;
 	border-bottom-right-radius: 0.8rem;
-	filter: blur(5px) opacity(70%) grayscale(70%);
+	filter: blur(8px) opacity(60%) grayscale(50%);
 }

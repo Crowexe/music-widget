@@ -3,10 +3,10 @@ import notThumbnail from './not-thumbnail.gif'
 import './App.css';
 
 const USER_TRACK_URL = 
-	'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=scriptedcrow&api_key=$API_KEY&format=json';
+	'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=scriptedcrow&api_key=6eae20c68f7d2d9eb3f6cbf85bf699ec&format=json';
 
 const TRACK_INFO_URL = 
-	'http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=$API_KEY&artist=$artistName&track=$trackName&format=json';
+	'http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=6eae20c68f7d2d9eb3f6cbf85bf699ec&artist=$artistName&track=$trackName&format=json';
 
 
 const time_ms = 5000;
