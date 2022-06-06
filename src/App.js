@@ -2,8 +2,11 @@ import {useState, useEffect} from 'react'
 import notThumbnail from './not-thumbnail.gif'
 import './App.css';
 
-const {USER_TRACK_URL, TRACK_INFO_URL} = process.env;
+const USER_TRACK_URL = 
+	'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=scriptedcrow&api_key=$API_KEY&format=json';
 
+const TRACK_INFO_URL = 
+	'http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=$API_KEY&artist=$artistName&track=$trackName&format=json';
 
 
 const time_ms = 5000;
